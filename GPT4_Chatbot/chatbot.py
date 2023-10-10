@@ -2,7 +2,7 @@ import openai
 from dotenv import dotenv_values
 import argparse
 
-config = dotenv_valuhes(".env")
+config = dotenv_values(".env")
 openai.api_key = config["api_key"]
 
 def bold(text):
